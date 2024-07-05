@@ -70,7 +70,7 @@ export class Newsfeed extends Component {
                 <div className="row">
                     {this.state.articles.map((element) => {
                         return (
-                            <div className="col-md-3" key={element.url}>
+                            <div className="d-flex col-md-3" key={element.url}>
                                 <NewsCard
                                     title={element.title ? element.title : null}
                                     description={element.description ? element.description : null}
